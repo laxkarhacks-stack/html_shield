@@ -9,10 +9,7 @@ st.title("HTML Shield")
 
 f = st.file_uploader("HTML file upload karo", type=["html", "htm"])
 theme = st.selectbox("Theme", list_themes())
-api = st.text_input(
-    "API URL",
-    value="https://literate-space-sniffle-gxrrj7p6g9j729jwg-8000.app.github.dev"
-)
+api = st.text_input("API URL", value="https://html-shield-api.onrender.com")
 
 if f and st.button("Banao"):
     html = f.read().decode("utf-8", "ignore")
