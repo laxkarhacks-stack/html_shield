@@ -4,3 +4,4 @@ python-multipart
 beautifulsoup4
 jinja2
 pypdf
+streamlit

@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }}</title>
+{% if api %}<link rel="stylesheet" href="{{ api }}/theme/{{ theme }}.css">{% else %}<style>{{ theme_css }}</style>{% endif %}
+{% for s in lib_scripts %}<script src="{{ s }}"></script>
+{% endfor %}</head><body>
+{{ body }}
+{% if api %}<script src="{{ api }}/shield.js"></script>{% else %}<script>{{ shield_js }}</script>{% endif %}
+<script>{{ js }}</script></body></html>

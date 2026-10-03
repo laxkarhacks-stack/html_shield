@@ -1,0 +1,6 @@
+html_shield.zip
+html_shield/
+__pycache__/
+*.pyc
+.venv/
+.env

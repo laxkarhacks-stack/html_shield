@@ -1,0 +1,21 @@
+{
+  "functions": {
+    "pdf.merge": {
+      "file": "pdf_merge.py",
+      "desc": "Multiple PDF files ko ek me merge karta hai",
+      "keywords": ["merge", "pdfdocument", "copypages", "addpage", "pdf", "save"],
+      "auto_threshold": 0.6, "confirm_threshold": 0.4
+    },
+    "pdf.split": {
+      "file": "pdf_split.py",
+      "desc": "PDF ke pages alag-alag karta hai",
+      "keywords": ["split", "extract", "pages", "pdfdocument", "pdf", "copypages"],
+      "auto_threshold": 0.7, "confirm_threshold": 0.5
+    }
+  },
+  "libraries": {
+    "pdf-lib": {"src": "/lib/pdf-lib.min.js"},
+    "jszip": {"src": "/lib/jszip.min.js"}
+  },
+  "hashes": {}
+}
